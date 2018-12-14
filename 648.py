@@ -6,7 +6,7 @@
 import os
 import sys
 from time import sleep as timeout
-from core.648core import *
+from core import *
 
 def main():
 	banner()
