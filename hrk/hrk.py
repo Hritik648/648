@@ -4,7 +4,7 @@ import os
 import sys
 import time
 
-648_banner = """
+banner = """
 ♤♤♤♤♤♤♤♤♤♤HRITIK♤♤♤♤♤♤♤♤♤♤
               __   _  _    ___
              / /_ | || |  ( _ )
@@ -38,7 +38,7 @@ def backtomenu_option():
 		restart_program()
 
 def banner():
-	print 648_banner
+	print banner
 
 def nmap():
 	print '\n》》》》》》 Installing Nmap 》》》》》》'
